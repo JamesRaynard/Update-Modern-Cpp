@@ -1,0 +1,1 @@
+int meaning_of_life;                                 // Define meaning_of_life
