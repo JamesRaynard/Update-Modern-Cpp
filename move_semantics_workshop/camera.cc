@@ -11,7 +11,6 @@ Camera::Camera(Camera&& other) noexcept {  std::swap(m, other.m); other.m = null
 		
 Camera& Camera::operator=(Camera&& other) noexcept {
         std::swap(m, other.m);
-        other.m = nullptr;
         return *this;
 }
 
